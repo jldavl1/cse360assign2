@@ -16,7 +16,7 @@ public class AddingMachine
 	 */
 	public int getTotal () 
 	{
-		return 0;
+		return total;
 	}
 	
 	/**
@@ -25,7 +25,8 @@ public class AddingMachine
 	 */
 	public void add (int value) 
 	{
-		
+		total += value;
+		operations += " + " + value;
 	}
 	
 	/**
@@ -34,7 +35,8 @@ public class AddingMachine
 	 */
 	public void subtract (int value) 
 	{
-		
+		total -= value;
+		operations += " - " + value;
 	}
 	
 	/**
@@ -51,7 +53,8 @@ public class AddingMachine
 	 */
 	public void clear() 
 	{
-		
+		total = 0;
+		operations = "0";
 	}
 
 }
