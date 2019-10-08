@@ -3,7 +3,7 @@ package cse360assign2;
 public class AddingMachine 
 {
 	private int total;
-	
+	private String operations = "0";
 	
 	public AddingMachine () 
 	{
@@ -43,7 +43,7 @@ public class AddingMachine
 	*/
 	public String toString () 
 	{
-		return "";
+		return operations;
 	}
 	
 	/**
