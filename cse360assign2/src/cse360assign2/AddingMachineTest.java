@@ -40,7 +40,7 @@ class AddingMachineTest {
 		a.add(-5);
 		a.subtract(7);
 		a.subtract(3);
-		assertEquals("0 + 5 + 7 -5 - 7 - 3", a.toString());
+		assertEquals("0 + 5 + 7 + -5 - 7 - 3", a.toString());
 		a.clear();
 		assertEquals("0", a.toString());
 		
