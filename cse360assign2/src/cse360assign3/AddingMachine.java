@@ -1,13 +1,14 @@
-package cse360assign2;
+package cse360assign3;
 
 public class AddingMachine 
 {
-	private int total;
-	private String operations = "0";
+	protected int total;
+	protected String operations;
 	
 	public AddingMachine () 
 	{
 		total = 0;  // not needed - included for clarity
+		operations = "0";
 	}
 	
 	/**
