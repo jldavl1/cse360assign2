@@ -1,3 +1,11 @@
+/**
+ *@Author Jorge_Davila
+
+ * Class ID: 70642
+ * 
+ * this class is an adding machine that performs addition subtraction and allows you to get a total.
+ */
+
 package cse360assign3;
 
 public class AddingMachine 
